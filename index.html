@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+
+    <div style="display: flex; flex-direction: column; align-items: center">
+      <div class="calcBg">
+        <input type="text" id="input" class="input" />
+        <table style="align-items: center" cellspacing="25" cellpadding="12">
+          <tr>
+            <td id="AC"><button class="button">AC</button></td>
+            <td id="DEL">
+              <button class="button">DEL</button>
+            </td>
+            <td id="divide">
+              <button class="button">/</button>
+            </td>
+            <td id="mul"><button class="button">*</button></td>
+          </tr>
+          <tr>
+            <td id="7"><button class="button">7</button></td>
+            <td id="8"><button class="button">8</button></td>
+            <td id="9"><button class="button">9</button></td>
+            <td id="-"><button class="button">-</button></td>
+          </tr>
+          <tr>
+            <td id="6"><button class="button">6</button></td>
+            <td id="5"><button class="button">5</button></td>
+            <td id="4"><button class="button">4</button></td>
+            <td id="+"><button class="button">+</button></td>
+          </tr>
+          <tr>
+            <td id="1"><button class="button">1</button></td>
+            <td id="2"><button class="button">2</button></td>
+            <td id="2"><button class="button">3</button></td>
+            <td rowspan="2" id="equals"><button class="button">=</button></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="0"><button class="button">0</button></td>
+            <td id="dot"><button class="button">.</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
